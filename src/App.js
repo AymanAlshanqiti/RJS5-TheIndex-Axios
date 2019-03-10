@@ -75,7 +75,7 @@ class App extends Component {
     if (this.state.loading) {
       return (
         <div className="container">
-          <div className="row col-12 my-4">loading ..</div>
+          <div className="row col-12 my-4 justify-content-md-center"><h1>loading ..</h1></div>
         </div>
       );
     }
